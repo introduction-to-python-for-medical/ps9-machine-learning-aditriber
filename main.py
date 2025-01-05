@@ -20,7 +20,7 @@ model.fit(x_train, y_train)
 
 from sklearn.metrics import accuracy_score
 y_pred = model.predict(x_test)
-accureacy = accuracy_score(y_test, y_pred)
+accuracy = accuracy_score(y_test, y_pred)  # תיקון כאן
 print(accuracy)
 
 
