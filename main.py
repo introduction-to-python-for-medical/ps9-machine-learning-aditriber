@@ -36,7 +36,7 @@ print(accuracy)
 
 import joblib
 
-joblib.dump(model, 'my_model')
+joblib.dump(model, 'my_model (1)')
 
 
 
